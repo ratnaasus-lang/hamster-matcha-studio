@@ -1,0 +1,22 @@
+{
+  "name": "hamster-matcha-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Short-form hamster matcha animations made with Remotion",
+  "scripts": {
+    "dev": "remotion studio src/index.ts",
+    "render": "remotion render src/index.ts HamsterMatcha out/hamster-matcha.mp4",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "^4.0.0",
+    "remotion": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
